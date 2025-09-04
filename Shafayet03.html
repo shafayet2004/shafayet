@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shafayet's Website</title>
+  <title>Shafayet's      Website</title>
   <style>
     /* Global Styles */
     body {
@@ -28,7 +28,7 @@
       display: grid;
       grid-template-rows: auto 1fr auto;
       grid-template-columns: 1fr;
-      height: 100vh;
+      min-height: 100vh; /* changed from height: 100vh */
     }
     header, footer {
       background: #031948;
@@ -66,9 +66,10 @@
     }
     /* Footer */
     footer {
+      background: #031948;
+      color: #fff;
       padding: 80px;
-      width: 100%;
-      bottom: 5px;
+      text-align: center;
     }
 
     /* Responsive Design */
@@ -88,22 +89,26 @@
     <header style="border:4px solid rgb(2, 146, 108); border-radius: 10px;padding: 40px;">
       <h2>بسم الله الرحمن الرحيم</h2>
         <h4>اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ</h4>
-      <H1 style="font-family:rubik;"><b>Welcome to Shafayet's Website</b></H1>
+        <h5>Welcome to </h5>
+      <H1 style="font-family:rubik;"><b>Shafayet's Website</b></H1>
     </header>
-    <nav style="border:2px solid rgba(117, 3, 3, 0.534); border-radius: 10px; padding: 20px;">
+    <nav style="border:2px solid rgb(0 0 0); border-radius: 10px; padding: 20px;">
       <a href="#home">Home</a>
       <a href="#News">News</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav> 
     <main> <page>
-      <section id="home" style="border:2px solid rgb(9, 250, 250); border-radius: 10px; padding:40px; margin-top: 50px;margin-bottom: 10px;">
-        <h2 style="background-color:aqua;padding: 20px;" align="center">Home</h2>
-        <p style="padding: 30px;" align="center">I'm Muhammad Shafayet Hossen Miraz, a student at <a href="https://bmcollege.gov.bd/"><u><mark>Govt. B M College, Barishal</mark></u></a>,
-          <a href="https://bmcollege.gov.bd/index.php?depname=Mathematics"><u><mark> Department of Mathematics</mark></u></a>.</p>
-        <p align="center">My father is <i>Muhammad Abdul Jabbar</i>, a teacher, and my mother is <i>Zakia Khanam</i>, a housewife. I have three siblings.</p>
-        <p align="center">My hobbies include reading books, scrolling through my mobile phone, and learning coding. My favorite food is <i>Biriyani</i>,
-           and my favorite color is <i>Black</i>.</p>
+      <section id="home" style="border:2px solid rgb(9, 250, 250); border-radius: 10px; padding:40px; margin-top: 50px; margin-bottom: 20px;" >
+        <h2 style="background-color:rgb(0, 255, 255);padding: 20px;" align="center">Home</h2>
+        <div style="display: flex; align-items: center; gap: 30px;">
+          <img src="d:\Shafayet (2).jpg" alt="Shafayet's Image" style="width: 400px; height: 450px;"  >
+          <div style="text-align: center;">
+             <h3 align="left">Hi, I'm </h3>
+            <h1 style="color: rgb(126, 4, 32);">Shafayet Hossen Miraz</h1>
+            <p>A Student,Learner,Developer.</p>
+          </div>
+        </div>
       </section></page>
       <page><section id="News"style="border:2px solid rgb(9, 250, 250); border-radius: 10px; padding:40px; margin-top: 50px;margin-bottom: 10px;" align="center"> 
         <h2  style="background-color:rgba(167, 14, 91, 0.498);padding: 20px;" align="center">News</h2>
@@ -126,21 +131,25 @@ The cat exudes a sense of calm confidence and gentle curiosity. Its relaxed post
         <img src="d:\01846221108.jpg" alt="Shafayet's Image" style="width: 180px; height: 180px; border-radius: 50%; margin-top: 1rem;">
         <p style="padding: 15px;"><b> I'm Muhammad Shafayet Hossen Miraz, a passionate learner and aspiring developer.</b></p>
         <p>Currently, I'm pursuing my studies at <a href="https://bmcollege.gov.bd/">Govt. B M College, Barishal</a>,
-           specializing in Mathematics. Beyond academics, I enjoy exploring various aspects of technology and web development.</p>
+           specializing in Mathematics. Beyond academics, I enjoy exploring various aspects of technology and web development.My father is <i>Muhammad Abdul Jabbar</i>,
+            a teacher, and my mother is <i>Zakia Khanam</i>, a housewife. I have three siblings.
+        My hobbies include reading books, scrolling through my mobile phone, and learn computer coding. My favorite food is <i>Biriyani</i>,
+           and my favorite color is <i>White</i></p>
         <p><b>My Skills:</b> <br>
         <li>Web design (HTML, CSS)</li>
           <li>WordPress development</li>
          <li>Freelance gig experience </li>
          <li>Ongoing learning: JavaScript, React, etc.</li></p>
       </section></page>
-   <page> <section id="contact" style="border:2px solid rgb(7, 92, 134); ; padding: 40px;margin-top: 50px;margin-bottom: 10px;">
+   <page> <section id="contact" style="border:2px solid rgb(0, 255, 123); border-radius: 10px; padding: 40px;margin-top: 50px;margin-bottom: 80px;">
         <h2 style="background-color:rgb(0, 255, 123);padding: 20px;" align="center">Contact</h2>
        <address align="center"><p style="padding: 30px;">If you have any questions or would like to connect, feel free to reach out!</p>
         <p>Facebook: <a href="https://web.facebook.com/shafayethossenmiraj"><b><u>Shafayet Hossen Miraj</u></b></a> </p>
-        <p>Email:<a href="mdshafayet616@gmail.com"><u><b>mdshafayet616@gmail.com</b></u></></p>
-         </section></page>
+        <p>Email:<a href="https://mail.google.com"><u><b>mdshafayet616@gmail.com </b></u></a></p>
+        <p>Mobile nomber:-<b><u>01846221108</u></b></p></address>  
+      </section></page>
     </main>
-    <footer style="color: #ffffff; background: #044e4b; padding: 40px; border: 4px solid rgb(2, 146, 108); border-radius: 10px; text-align: center;">
+    <footer style="color: #ffffff;background: #044e4b; padding: 5px;">
       &copy; 2025 Shafayet's Website. All rights reserved.
     </footer>
   </div>
